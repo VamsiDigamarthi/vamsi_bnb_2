@@ -1,0 +1,72 @@
+.first-container {
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    margin: 20px;
+    margin-right: 15px;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+  
+  .first-card {
+    min-width: 60%;
+    border-radius: 20px;
+    background-size: cover;
+    height: 300px;
+    margin: 0px 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  @media (min-width: 768px) {
+    .first-card {
+      height: 400px;
+      max-width: 50%;
+    }
+  }
+  .first-img {
+    background-image: url('https://a0.muscache.com/im/pictures/e35bb307-05f4-48a4-bdc5-3b2198bb9451.jpg?im_w=1200');
+    background-size: cover;
+  }
+  .second-img {
+    background-image: url('https://a0.muscache.com/im/pictures/58819d01-2a71-441d-b3bc-baae0cd64da1.jpg?im_w=1200');
+  }
+  .third-img {
+    background-image: url('https://a0.muscache.com/im/pictures/bcbd20bb-1654-4ea2-a86c-2cf25666f3b6.jpg?im_w=1200');
+  }
+  .para-color {
+    color: #ffffff;
+  }
+  .heading-color1 {
+    color: #ffffff;
+    font-size: 17px;
+  }
+  
+  @media (min-width: 760px) {
+    .heading-color1 {
+      font-size: 25px;
+      font-family: 'Roboto';
+    }
+    .inner-card {
+      width: 50%;
+    }
+  }
+  
+  .show-btn {
+    background-color: White;
+    height: 35px;
+    width: 100px;
+    color: lightslategray;
+    border-radius: 8px;
+    border-style: none;
+  }
+  
+  .first {
+    margin-left: 23px;
+  }
+  
